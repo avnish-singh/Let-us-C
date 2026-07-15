@@ -2,10 +2,41 @@
 #include<stdio.h>
 
 int main(){
+    int i=6;
+    for(;i<=10;)
+    {
+        printf("%d\n",i);
+        i++;
+    }
 
+/*    for(i=1;i<=10;)
+    {
+        printf("%d\n",i);
+        i = i + 1;
+    }
+/*    for(i=1;i<=10;i=i+1)
+        printf("%d\n", i);
+
+/*     for(scanf("%d",&i);i<=10;i++)
+        printf("%d\n",i);
+
+//    for(i=1;i<=10;printf("%d",i++));
+/*    for(i<4;j=5;j=0)
+        printf("%d", i);// infinite loop not decrementing i;
+/*    for(i=10;i;i--)
+        printf("%d\n", i); */
+/*    int i;
+    printf("%d\n", i);
+    while (i == 0)
+    {
+        printf("i :%d\n",i);
+        i += 1;
+    }*/
+/*
     while('a' < 'b')
         printf("Malayalam is palindrome\n");
-
+        //indefinite loop
+*/
     /*int x=4, y=3, z;
     z = x-- - y;
     printf(" x :%d\n y :%d\n z :%d\n", x, y, z);
